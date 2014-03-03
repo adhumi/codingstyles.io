@@ -1,4 +1,5 @@
 name: Coding styles
 markdown: redcarpet
 pygments: true
+permalink: /language/:title
 exclude: ['Rakefile', 'README.md']

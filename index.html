@@ -6,7 +6,7 @@ title: Coding styles
 <ul class="languages">
 	{% sorted_for post in site.posts sort_by:title case_sensitive:true %}
 	<li>
-		<a href="{{ post.url }}">{{ post.title }}</a> ({{ post.nb_styles }} {% if post.nb_styles == 1 %}style{% else %}styles{% endif %})
+		<a href="{{ post.url }}" title="{{ post.excerpt | remove: '<p>' | remove: '</p>' }}">{{ post.title }}</a> <span class="nb_styles">({{ post.nb_styles }} {% if post.nb_styles == 1 %}style{% else %}styles{% endif %})</span>
 	</li>
   	{% endsorted_for %}
 </ul>

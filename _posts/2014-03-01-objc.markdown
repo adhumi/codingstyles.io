@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: language
 title:  "Objective-C"
 date:   2014-03-02 14:16:16
 nb_styles: 1
