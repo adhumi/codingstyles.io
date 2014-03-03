@@ -1,7 +1,7 @@
 ---
 layout: language
 title:  "Objective-C"
-date:   2014-03-02 14:16:16
+date:   2014-03-03 22:00:00
 nb_styles: 1
 ---
 
@@ -11,5 +11,8 @@ Originally developed in the early 1980s, it was selected as the main language us
 
 Objective-C source code program files usually have .m filename extensions, while Objective-C header files have .h extensions, the same as for C header files.
 
+## Style guides
+
 - [Google Objective-C Style Guide](https://google-styleguide.googlecode.com/svn/trunk/objcguide.xml)
 - [NYTimes Objective-C Style Guide](https://github.com/NYTimes/objective-c-style-guide)
+- [Github Objective-C conventions](https://github.com/github/objective-c-conventions)
