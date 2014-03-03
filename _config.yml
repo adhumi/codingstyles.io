@@ -1,3 +1,4 @@
 name: Coding styles
 markdown: redcarpet
 pygments: true
+exclude: ['Rakefile', 'README.md']
