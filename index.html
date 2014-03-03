@@ -1,0 +1,12 @@
+---
+layout: default
+title: Coding styles
+---
+
+<ul class="languages">
+	{% sorted_for post in site.posts sort_by:title case_sensitive:true %}
+	<li>
+		<a href="{{ post.url }}">{{ post.title }}</a> ({{ post.nb_styles }} {% if post.nb_styles == 1 %}style{% else %}styles{% endif %})
+	</li>
+  	{% endsorted_for %}
+</ul>
