@@ -36,11 +36,15 @@ ul.languages {
 	-moz-column-count:2;
 	-webkit-column-count:2;
 	column-count:2;
+	-moz-column-rule:1px dotted #DDD;
+	-webkit-column-rule:1px dotted #DDD;
+	column-rule:1px dotted #DDD;
 }
 
 ul.languages li {
 	padding: 0;
 	margin: 0; 
+	text-align: center;
 }
 
 ul.languages li a {
