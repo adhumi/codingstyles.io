@@ -17,13 +17,19 @@
         <link href='http://fonts.googleapis.com/css?family=Acme|Anaheim' rel='stylesheet' type='text/css'>
     </head>
     <body>
-		<div class="container">
+    	<header>
+			<div class="container">
+				<div class="row">
+					<div class="col-md-8 col-md-offset-2">
+						<h1><a href="/">{{ site.name }}<span id="cursor">_</span></a></h1>
+					</div>
+				</div>
+	        </div>
+        </header>
+        
+        <div class="container">
 			<div class="row">
 				<div class="col-md-8 col-md-offset-2">
-					<header>
-						<h1><a href="/">{{ site.name }}<span id="cursor">_</span></a></h1>
-					</header>
-				
 					{{ content }}
 					
 					<footer>

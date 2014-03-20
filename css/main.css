@@ -12,6 +12,11 @@ a:hover {
 	border-bottom: 1px dotted #466147;
 }
 
+header {
+	background-color: #5d755e;
+	margin-bottom: 40px;
+}
+
 header h1 {
 	text-align: center;
 	padding: 30px 0;
@@ -19,8 +24,13 @@ header h1 {
 	font-size: 5em;
 }
 
+header h1 a {
+	color: #FFF;
+}
+
 header h1 a:hover {
 	border: none;
+	color: #DDD;
 }
 
 header h1 #cursor {
@@ -75,11 +85,11 @@ article {
 }
 
 article h1 {
-	background-color: #5d755e;
-	color: #FFF;
+	color: #5d755e;
 	padding: 10px 0;
 	text-align: center;
 	margin-bottom: 30px;
+	font-size: 5em;
 }
 
 article h2 {
