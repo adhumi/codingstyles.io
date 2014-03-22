@@ -1,5 +1,5 @@
 <p align="center" >
-	<img src="https://raw.github.com/codingstyles/codingstyles.github.io/assets/codingstyles-logo.gif" alt="Coding styles" title="Coding styles">
+	<img src="https://raw.githubusercontent.com/codingstyles/codingstyles.github.io/source/codingstyles_logo.gif" alt="Coding styles" title="Coding styles">
 </p>
 
 Coding styles references conventions and guidelines for writing code. Any kind of contribution is welcomed and feel free to submit an issue or a pull-request if you want to add a language, your favorite coding style or a UI tweak.
