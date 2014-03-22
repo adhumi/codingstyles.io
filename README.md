@@ -10,10 +10,10 @@ The website uses [Bootstrap](http://getbootstrap.com) and [Jekyll](http://github
 To add a new language on Coding styles, just add a file in the `_posts` folder. The created file must be named as follow: `1970-01-01-languageName.md`. `1970-01-01` is the current date and `languageName` is the last component of the URL and must be lowercased and URL friendly.
 
 In the post's front-matter, you have to set the following variables:
-- `layout` *required*: `language`.
-- `title` *required*: Name of the language.
-- `date` *required*: Creation or edit date.
-- `nb_styles` *optional*: Number of referenced styles, has to be set manualy.
+- `layout` *(required)*: `language`.
+- `title` *(required)*: Name of the language.
+- `date` *(required)*: Creation or edit date.
+- `nb_styles` *(optional)*: Number of referenced styles, has to be set manualy.
 
 # Contact
 [Adrien Humilière](http://github.com/adhumi) ([@adhumi](http://twitter.com/adhumi))
