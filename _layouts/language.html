@@ -1,12 +1,62 @@
----
-layout: default
----
-						<article>
-							<h1>{{ page.title }}</h1>
-							
-							<div class="post">
-								{{ content }}
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>{{ page.title }} coding styles</title>
+        <meta name="viewport" content="width=device-width">
+
+        <link rel="stylesheet" href="/css/bootstrap.min.css">
+        <link rel="stylesheet" href="/css/bootstrap-theme.min.css">
+        <link rel="stylesheet" href="/css/syntax.css">
+        <link rel="stylesheet" href="/css/main.css">
+        
+        <script src="/js/custom.js" charset="utf-8"></script>
+        
+        <!-- Webfonts -->
+        <link href='http://fonts.googleapis.com/css?family=Acme|Anaheim' rel='stylesheet' type='text/css'>
+    </head>
+    <body>
+    	<header>
+			<div class="container">
+				<div class="row">
+					<div class="col-md-8 col-md-offset-2">
+						<h1><a href="/">{{ site.name }}<span id="cursor">_</span></a></h1>
+					</div>
+				</div>
+	        </div>
+        </header>
+        
+        <div class="container">
+			<div class="row">
+				<div class="col-md-8 col-md-offset-2">
+					<article>
+						<h1>{{ page.title }}</h1>
+						
+						<div class="post">
+							{{ content }}
+						</div>
+						
+						<p class="meta">Last updated {{ page.date | date_to_string }}</p>
+					</article>
+					
+					<footer>
+						<div class="row">
+							<div class="col-md-6">
+								Created by <a href="http://twitter.com/adhumi">@adhumi</a> with <3<br />
+								All languages descriptions comes from Wikipedia.
 							</div>
-							
-							<p class="meta">Last updated {{ page.date | date_to_string }}</p>
-						</article>
+							<div class="col-md-6 contribute">
+								<a href="https://github.com/codingstyles" class="github">Contribute on Github</a><br />
+								<iframe src="http://ghbtns.com/github-btn.html?user=codingstyles&repo=codingstyles.github.io&type=watch" allowtransparency="true" frameborder="0" scrolling="0" width="51" height="20"></iframe>
+  								<iframe src="http://ghbtns.com/github-btn.html?user=codingstyles&repo=codingstyles.github.io&type=fork" allowtransparency="true" frameborder="0" scrolling="0" width="51" height="20"></iframe>
+							</div>
+						</div>
+					</footer>
+				</div>
+			</div>
+        </div>
+    </body>
+</html>
+
+						
